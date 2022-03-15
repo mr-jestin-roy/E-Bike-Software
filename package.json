@@ -17,7 +17,6 @@
     "npm": ">=6"
   },
   "dependencies": {
-    "@arduino/arduino-iot-client": "^1.4.1",
     "@emotion/cache": "11.7.1",
     "@emotion/react": "11.7.1",
     "@emotion/styled": "11.6.0",
@@ -43,8 +42,8 @@
     "yup": "0.32.11"
   },
   "scripts": {
-    "start": "node --max_old_space_size=2560 node_modules/.bin/react-scripts start",
-    "build": "node --max_old_space_size=2560 node_modules/.bin/react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
