@@ -44,10 +44,10 @@ function Dashboard() {
           <Grid item xs={12} md={6} lg={4}>
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
-                color="dark"
+                color="info"
                 icon="map"
                 title="NAVIGATION"
-                count="Click Here"
+                count="Click Here IOT DashBoard Link"
                 percentage={{
                   color: "success",
                   amount: "+55%",
@@ -59,9 +59,10 @@ function Dashboard() {
           <Grid item xs={12} md={6} lg={4}>
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
+                color="dark"
                 icon="security"
-                title="Today's Users"
-                count="2,300"
+                title="SECURITY"
+                count="Click Here IOT DashBoard Link"
                 percentage={{
                   color: "success",
                   amount: "+3%",
@@ -73,10 +74,10 @@ function Dashboard() {
           <Grid item xs={12} md={6} lg={4}>
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
-                color="success"
-                icon="cell"
-                title="Revenue"
-                count="34k"
+                color="error"
+                icon="inventory_2"
+                title="BATTERY"
+                count="Click Here IOT DashBoard Link"
                 percentage={{
                   color: "success",
                   amount: "+1%",

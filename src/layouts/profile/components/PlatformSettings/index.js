@@ -33,14 +33,14 @@ function PlatformSettings() {
 
   return (
     <Card sx={{ boxShadow: "none" }}>
-      <MDBox p={2}>
+      <MDBox p={3}>
         <MDTypography variant="h6" fontWeight="medium" textTransform="capitalize">
-          platform settings
+          Platform settings
         </MDTypography>
       </MDBox>
       <MDBox pt={1} pb={2} px={2} lineHeight={1.25}>
         <MDTypography variant="caption" fontWeight="bold" color="text" textTransform="uppercase">
-          account
+          Notifications
         </MDTypography>
         <MDBox display="flex" alignItems="center" mb={0.5} ml={-1.5}>
           <MDBox mt={0.5}>
@@ -48,33 +48,13 @@ function PlatformSettings() {
           </MDBox>
           <MDBox width="80%" ml={0.5}>
             <MDTypography variant="button" fontWeight="regular" color="text">
-              Email me when someone follows me
+              Enable/Disable all notifications
             </MDTypography>
           </MDBox>
         </MDBox>
-        <MDBox display="flex" alignItems="center" mb={0.5} ml={-1.5}>
-          <MDBox mt={0.5}>
-            <Switch checked={answersPost} onChange={() => setAnswersPost(!answersPost)} />
-          </MDBox>
-          <MDBox width="80%" ml={0.5}>
-            <MDTypography variant="button" fontWeight="regular" color="text">
-              Email me when someone answers on my post
-            </MDTypography>
-          </MDBox>
-        </MDBox>
-        <MDBox display="flex" alignItems="center" mb={0.5} ml={-1.5}>
-          <MDBox mt={0.5}>
-            <Switch checked={mentionsMe} onChange={() => setMentionsMe(!mentionsMe)} />
-          </MDBox>
-          <MDBox width="80%" ml={0.5}>
-            <MDTypography variant="button" fontWeight="regular" color="text">
-              Email me when someone mentions me
-            </MDTypography>
-          </MDBox>
-        </MDBox>
-        <MDBox mt={3}>
+        <MDBox mt={2}>
           <MDTypography variant="caption" fontWeight="bold" color="text" textTransform="uppercase">
-            application
+            Battery
           </MDTypography>
         </MDBox>
         <MDBox display="flex" alignItems="center" mb={0.5} ml={-1.5}>
@@ -83,7 +63,7 @@ function PlatformSettings() {
           </MDBox>
           <MDBox width="80%" ml={0.5}>
             <MDTypography variant="button" fontWeight="regular" color="text">
-              New launches and projects
+              Notify when battery is low
             </MDTypography>
           </MDBox>
         </MDBox>
@@ -93,19 +73,44 @@ function PlatformSettings() {
           </MDBox>
           <MDBox width="80%" ml={0.5}>
             <MDTypography variant="button" fontWeight="regular" color="text">
-              Monthly product updates
+              Notify when battery temp is above permissible limits
             </MDTypography>
           </MDBox>
         </MDBox>
-        <MDBox display="flex" alignItems="center" mb={0.5} ml={-1.5}>
-          <MDBox mt={0.5}>
-            <Switch checked={newsletter} onChange={() => setNewsletter(!newsletter)} />
-          </MDBox>
-          <MDBox width="80%" ml={0.5}>
-            <MDTypography variant="button" fontWeight="regular" color="text">
-              Subscribe to newsletter
-            </MDTypography>
-          </MDBox>
+      </MDBox>
+      <MDBox mt={3}>
+        <MDTypography variant="caption" fontWeight="bold" color="text" textTransform="uppercase">
+          Safety
+        </MDTypography>
+      </MDBox>
+      <MDBox display="flex" alignItems="center" mb={0.5} ml={-1.5}>
+        <MDBox mt={0.5}>
+          <Switch checked={answersPost} onChange={() => setAnswersPost(!answersPost)} />
+        </MDBox>
+        <MDBox width="80%" ml={0.5}>
+          <MDTypography variant="button" fontWeight="regular" color="text">
+            Speed Limit Danger Alert
+          </MDTypography>
+        </MDBox>
+      </MDBox>
+      <MDBox display="flex" alignItems="center" mb={0.5} ml={-1.5}>
+        <MDBox mt={0.5}>
+          <Switch checked={newsletter} onChange={() => setNewsletter(!newsletter)} />
+        </MDBox>
+        <MDBox width="80%" ml={0.5}>
+          <MDTypography variant="button" fontWeight="regular" color="text">
+            Accident Alert
+          </MDTypography>
+        </MDBox>
+      </MDBox>
+      <MDBox display="flex" alignItems="center" mb={0.5} ml={-1.5}>
+        <MDBox mt={0.5}>
+          <Switch checked={mentionsMe} onChange={() => setMentionsMe(!mentionsMe)} />
+        </MDBox>
+        <MDBox width="80%" ml={0.5}>
+          <MDTypography variant="button" fontWeight="regular" color="text">
+            Helmet Safety Alert
+          </MDTypography>
         </MDBox>
       </MDBox>
     </Card>

@@ -14,16 +14,16 @@ Coded by www.creative-tim.com
 */
 
 // Images
-import kal from "assets/images/kal-visuals-square.jpg";
-import marie from "assets/images/marie.jpg";
-import ivana from "assets/images/ivana-square.jpg";
-import team3 from "assets/images/team-3.jpg";
-import team4 from "assets/images/team-4.jpg";
+import putin from "assets/images/kal-visuals-square.jpg";
+import xi from "assets/images/marie.jpg";
+import obama from "assets/images/ivana-square.jpg";
+import modi from "assets/images/team-3.jpg";
+import elizabeth from "assets/images/team-4.jpg";
 
 export default [
   {
-    image: kal,
-    name: "Sophie B.",
+    image: putin,
+    name: "Putin",
     description: "Hi! I need more information..",
     action: {
       type: "internal",
@@ -33,8 +33,8 @@ export default [
     },
   },
   {
-    image: marie,
-    name: "Anne Marie",
+    image: xi,
+    name: "Xi",
     description: "Awesome work, can you..",
     action: {
       type: "internal",
@@ -44,8 +44,8 @@ export default [
     },
   },
   {
-    image: ivana,
-    name: "Ivanna",
+    image: obama,
+    name: "Obama",
     description: "About files I can..",
     action: {
       type: "internal",
@@ -55,8 +55,8 @@ export default [
     },
   },
   {
-    image: team4,
-    name: "Peterson",
+    image: modi,
+    name: "Modi",
     description: "Have a great afternoon..",
     action: {
       type: "internal",
@@ -66,8 +66,8 @@ export default [
     },
   },
   {
-    image: team3,
-    name: "Nick Daniel",
+    image: elizabeth,
+    name: "Elizabeth",
     description: "Hi! I need more information..",
     action: {
       type: "internal",

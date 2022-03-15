@@ -29,7 +29,7 @@ function OrdersOverview() {
     <Card sx={{ height: "100%" }}>
       <MDBox pt={3} px={3}>
         <MDTypography variant="h6" fontWeight="medium">
-          Orders overview
+          Vehicle Overview
         </MDTypography>
         <MDBox mt={0} mb={2}>
           <MDTypography variant="button" color="text" fontWeight="regular">
@@ -38,7 +38,7 @@ function OrdersOverview() {
             </MDTypography>
             &nbsp;
             <MDTypography variant="button" color="text" fontWeight="medium">
-              24%
+              Usage up by 40%
             </MDTypography>{" "}
             this month
           </MDTypography>
@@ -48,31 +48,31 @@ function OrdersOverview() {
         <TimelineItem
           color="success"
           icon="notifications"
-          title="$2400, Design changes"
+          title="EV Bill Generated"
           dateTime="22 DEC 7:20 PM"
         />
         <TimelineItem
           color="error"
           icon="inventory_2"
-          title="New order #1832412"
+          title="Battery Full, remove charger"
           dateTime="21 DEC 11 PM"
         />
         <TimelineItem
           color="info"
           icon="shopping_cart"
-          title="Server payments for April"
+          title="OTA Updates Scheduled"
           dateTime="21 DEC 9:34 PM"
         />
         <TimelineItem
           color="warning"
           icon="payment"
-          title="New card added for order #4395133"
+          title="New card added in your profile"
           dateTime="20 DEC 2:20 AM"
         />
         <TimelineItem
           color="primary"
           icon="vpn_key"
-          title="New card added for order #4395133"
+          title="OTP Pin generated for new login"
           dateTime="18 DEC 4:54 AM"
           lastItem
         />
