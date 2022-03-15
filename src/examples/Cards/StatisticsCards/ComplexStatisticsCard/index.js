@@ -18,14 +18,14 @@ import PropTypes from "prop-types";
 
 // @mui material components
 import Card from "@mui/material/Card";
-import Divider from "@mui/material/Divider";
+// import Divider from "@mui/material/Divider";
 import Icon from "@mui/material/Icon";
 
 // Material Dashboard 2 React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
-function ComplexStatisticsCard({ color, title, count, percentage, icon }) {
+function ComplexStatisticsCard({ color, title, count, icon }) {
   return (
     <Card>
       <MDBox display="flex" justifyContent="space-between" pt={1} px={2}>
@@ -38,34 +38,20 @@ function ComplexStatisticsCard({ color, title, count, percentage, icon }) {
           display="flex"
           justifyContent="center"
           alignItems="center"
-          width="4rem"
-          height="4rem"
-          mt={-3}
+          width="5rem"
+          height="5rem"
+          mt={-5}
         >
           <Icon fontSize="medium" color="inherit">
             {icon}
           </Icon>
         </MDBox>
-        <MDBox textAlign="right" lineHeight={1.25}>
+        <MDBox textAlign="middle" lineHeight={1.5}>
+          <MDTypography variant="h4">{title}</MDTypography>
           <MDTypography variant="button" fontWeight="light" color="text">
-            {title}
+            {count}
           </MDTypography>
-          <MDTypography variant="h4">{count}</MDTypography>
         </MDBox>
-      </MDBox>
-      <Divider />
-      <MDBox pb={2} px={2}>
-        <MDTypography component="p" variant="button" color="text" display="flex">
-          <MDTypography
-            component="span"
-            variant="button"
-            fontWeight="bold"
-            color={percentage.color}
-          >
-            {percentage.amount}
-          </MDTypography>
-          &nbsp;{percentage.label}
-        </MDTypography>
       </MDBox>
     </Card>
   );
