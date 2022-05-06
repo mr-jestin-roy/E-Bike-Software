@@ -47,7 +47,7 @@ function Dashboard() {
                 color="info"
                 icon="map"
                 title="NAVIGATION"
-                count="Click Here IOT DashBoard Link"
+                count="865fbe9c-5e18-4096-8b86-24a6b3773e6d"
                 percentage={{
                   color: "success",
                   amount: "+55%",
@@ -62,7 +62,7 @@ function Dashboard() {
                 color="dark"
                 icon="security"
                 title="SECURITY"
-                count="Click Here IOT DashBoard Link"
+                count="de1b5648-167c-4402-b21e-7b1d12abfb28"
                 percentage={{
                   color: "success",
                   amount: "+3%",
@@ -77,7 +77,7 @@ function Dashboard() {
                 color="error"
                 icon="inventory_2"
                 title="BATTERY"
-                count="Click Here IOT DashBoard Link"
+                count="8650ae4b-0ec7-49a2-9c4c-8e6e78a7e631"
                 percentage={{
                   color: "success",
                   amount: "+1%",
