@@ -182,7 +182,7 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
       <MDBox p={2} mt="auto">
         <MDButton
           component="a"
-          href="https://create.arduino.cc/iot/dashboards/802083bd-036a-472c-8687-7769d6474049?mode=edit"
+          href="https://create.arduino.cc/iot/dashboards"
           target="_blank"
           rel="noreferrer"
           variant="gradient"
