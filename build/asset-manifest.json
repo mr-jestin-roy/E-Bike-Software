@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/E-Bike-Software/static/js/main.66f8ee74.js",
+    "static/media/pattern-tree.svg": "/E-Bike-Software/static/media/pattern-tree.156bb943ac7fd244f10c115d085e085e.svg",
+    "static/media/logo-ct-dark.png": "/E-Bike-Software/static/media/logo-ct-dark.bd5d0a58eeaba9460fa1.png",
+    "static/media/logo-ct.png": "/E-Bike-Software/static/media/logo-ct.bd5d0a58eeaba9460fa1.png",
+    "static/media/kal-visuals-square.jpg": "/E-Bike-Software/static/media/kal-visuals-square.8aac12927bac8e900ca5.jpg",
+    "static/media/bg-profile.jpeg": "/E-Bike-Software/static/media/bg-profile.af1219a742e09fc7b612.jpeg",
+    "static/media/team-4.jpg": "/E-Bike-Software/static/media/team-4.1f08d0a61dc8b240920b.jpg",
+    "static/media/jestinroy3.jpg": "/E-Bike-Software/static/media/jestinroy3.8246f3ba977a7ce37210.jpg",
+    "static/media/visa.png": "/E-Bike-Software/static/media/visa.71c0d5e9e2aaee42e4c3.png",
+    "static/media/mastercard.png": "/E-Bike-Software/static/media/mastercard.27fca3e7637a9458fb64.png",
+    "static/media/charging-station.png": "/E-Bike-Software/static/media/charging-station.fd4a791f40910a1f9e09.png",
+    "index.html": "/E-Bike-Software/index.html",
+    "main.66f8ee74.js.map": "/E-Bike-Software/static/js/main.66f8ee74.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.66f8ee74.js"
+  ]
+}
