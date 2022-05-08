@@ -1,7 +1,6 @@
 {
   "name": "material-dashboard-2-react",
   "version": "2.1.0",
-  "homepage": "https://mr-jestin-roy.github.io/E-Bike-Software/#/dashboard",
   "private": true,
   "author": "Creative Tim",
   "license": "See license in https://www.creative-tim.com/license",
@@ -11,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mr-jestin-roy/E-Bike-Software.git"
+    "url": "git+https://github.com/creativetimofficial/material-dashboard-react.git"
   },
   "engines": {
     "node": "14 || 15 || 16",
@@ -30,10 +29,11 @@
     "chart.js": "3.4.1",
     "chroma-js": "2.4.2",
     "prop-types": "15.8.1",
-    "react": "16.13.0",
+    "react": "17.0.2",
     "react-chartjs-2": "3.0.4",
-    "react-dom": "16.13.0",
+    "react-dom": "17.0.2",
     "react-github-btn": "1.2.1",
+    "react-google-maps": "^9.4.5",
     "react-router-dom": "6.2.1",
     "react-scripts": "5.0.0",
     "react-table": "7.7.0",
@@ -43,12 +43,11 @@
     "yup": "0.32.11"
   },
   "scripts": {
-    "postinstall": "npm run webpack",
-    "webpack": "webpack",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
   "eslintConfig": {
     "extends": [
