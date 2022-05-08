@@ -1,4 +1,7 @@
 # E-Bike-Software
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/71/original/material-dashboard-react.jpg?1638950990)
+![Main DashBoard](https://github.com/mr-jestin-roy/E-Bike-Software/blob/main/Main%20dashboard.png)
 
+![User Profile](https://github.com/mr-jestin-roy/E-Bike-Software/blob/main/user%20Profile.png)
+
+![Configurator](https://github.com/mr-jestin-roy/E-Bike-Software/blob/main/UI%20Configurator.png)
