@@ -48,11 +48,9 @@ function ComplexStatisticsCard({ color, title, count, icon }) {
         </MDBox>
         <MDBox textAlign="middle" lineHeight={1.5}>
           <MDTypography variant="h4">{title}</MDTypography>
-          <a href={`https://create.arduino.cc/iot/dashboards/${count}`}>
-            <MDTypography variant="button" fontWeight="light" color="text">
-              {title} IOT Cloud Dashboard
-            </MDTypography>
-          </a>
+          <MDTypography variant="button" fontWeight="light" color="text">
+            {count}
+          </MDTypography>
         </MDBox>
       </MDBox>
     </Card>
